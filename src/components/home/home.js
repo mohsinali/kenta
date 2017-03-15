@@ -26,6 +26,9 @@ class Home extends Component {
                 </Grid.Row>
             </Grid>
         </Container>
+        <div className="footer">
+          Footer
+        </div>
       </div>
     )
   }
