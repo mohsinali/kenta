@@ -1,0 +1,221 @@
+/*************** Need from bootstrap ******************/
+.img-responsive{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.btn-group-lg > .btn, .btn-lg {
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 16px;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-right {
+    text-align: right !important;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+/****************** Common Styles For Kenta ******************/
+img{
+    object-fit: cover;
+}
+.padding-0{
+    padding: 0px;
+}
+.padding-0-imp{
+    padding: 0px !important;
+}
+.padding-r-0{
+    padding-right: 0px;
+}
+.padding-r-0-imp{
+    padding-right: 0px !important;
+}
+.pad-t-0-imp{
+    padding-top: 0px !important;
+}
+.pad-t-b-0px-imp{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.margin-0{
+    margin: 0px;
+}
+.margin-0-imp{
+    margin: 0px !important;
+}
+.margin-top-0px{
+    margin-top: 0px;
+}
+.margin-top-0px-imp{
+    margin-top: 0px !important;
+}
+
+.margin-top-8px{
+    margin-top: 8px;
+}
+.margin-top-8px{
+    margin-top: 8px;
+}
+.margin-top-8px-imp{
+    margin-top: 8px !important;
+}
+.mar-top-15-imp{
+    margin-top: 15px !important;
+}
+.mar-top-30per-imp{
+    margin-top: 30% !important;
+}
+.pad-t-b-13rem{
+    padding: 13rem 0;
+}
+.pad-t-b-15rem{
+    padding: 15rem 0;
+}
+.pad-t-100px{
+    padding-top: 100px;
+}
+.btn {
+    border-radius: 0;
+    font-size: 80%;
+}
+.pad-t-b-20px{
+    padding: 20px 0px !important;
+}
+.pad-t-b-10px{
+    padding: 10px 0px;
+}
+.pad-b-10px{
+    padding-bottom: 10px;
+}
+.pad-t-15px-imp{
+    padding-top: 15px !important;
+}
+.pad-t-30px{
+    padding-top: 30px;
+}
+.pad-lr-20px{
+    padding: 0px 20px;
+}
+.pad-lr-10px{
+    padding: 0px 10px;
+}
+.float-right{
+    float: right !important;
+}
+.pad-r-l-0-imp{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.pad-b-10px{
+    padding-bottom: 10px;
+}
+.pad-top-30per{
+    padding-top: 30% !important;
+}
+.overflow_hidden{
+    overflow: hidden;
+}
+.red_text{
+    color: #ff5353;
+}
+.white_text{
+    color: #ffffff;
+}
+.bg_transparent{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+.form-control input{
+    font-family: 'Roboto', sans-serif;
+    box-shadow: none !important;
+    outline: medium none !important;
+}
+.form-control input, .ui.selection.dropdown{
+    border-radius: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
+    background-color: transparent !important;
+    padding-left: 0px !important;
+    width: 100% !important;
+    height: 34px !important;
+}
+.form-control:active, .form-control:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.form-group label{
+    font-weight: normal !important;
+}
+.height-100{
+    height: 100%;
+}
+.hei-pos-100-r{
+    height: 100%;
+    position: relative;
+}
+
+.Bot_menu {
+    position: relative;
+    margin-top: 12px;
+}
+.Bot_menu .company_proof {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 52px;
+    border-top: 1px solid #c9c9c9;
+}
+.Bot_menu .company_proof .menuList{
+    width: 20%;
+    height: 100%;
+    border-left: 1px solid #c9c9c9;
+    float: left;
+    position: relative;
+}
+.Bot_menu .company_proof .menuList a{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    font-size: 12px;
+    color: #000;
+}
+.Bot_menu .company_proof .menuList a p{
+    margin-top: 3px;
+}
+.Bot_menu .company_proof .menuList a i{
+    font-size: 18px;
+    color: #ff5353;
+}
+
+/********************* 28/02/2017 New CSS to cardlist *********************/
+.cardlist_product, .cardlist_product img{
+    height: 100px !important;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: center;
+}
+.cardlist_product_detail .ui.cards > .card {
+    font-size: 1em;
+    width: 46.4%;
+    float: left;
+    padding: 0;
+    margin: 5px;
+}
+.cardlist_product_detail .ui.card > .content, .ui.cards > .card > .content{
+    padding: 10px !important;
+}
+.cardlist_product_detail .ui.card > .content > .header:not(.ui), .ui.cards > .card > .content > .header:not(.ui) {
+    font-size: 1em !important;
+}
+
+
+/**/

@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
+//****** Import Custome Components */
+import Home from './home/home';
+
 export default class App extends Component {
-  render() {
+  render() {    
     return (
-      <div>React simple starter</div>
+      <div>
+        <Home />
+      </div>
     );
   }
 }
